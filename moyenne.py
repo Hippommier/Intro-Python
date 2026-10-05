@@ -8,8 +8,9 @@ print("donne moi une note sur 20")
 n4= float (input())
 print("donne moi une note sur 20")
 n5= float (input())
-print
+somme= n1+n2+n3+n4+n5
+moyenne= somme/5
+moyenne= str(moyenne)
+print("la somme des notes est "+moyenne+"/20")
 
 
-
-print("La moyenne des notes est "+)
